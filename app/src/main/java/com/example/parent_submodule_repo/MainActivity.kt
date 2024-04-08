@@ -16,5 +16,9 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        parent()
     }
+
+    private fun parent(): String = "This is the parent"
 }
